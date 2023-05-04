@@ -45,6 +45,48 @@ a {
   padding: 1em;
 }
 .nav ul li a:hover {
-  background-color: #EEA539;
+  background-color: #eea539;
   color: #fff;
+}
+
+.hero__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 3em;
+}
+.hero__container h1 {
+  font-size: 5.5rem;
+}
+.hero__left--orange {
+  color: #eea539;
+}
+.hero__left__search {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 0 1em;
+}
+.hero__left, .hero__right {
+  flex: 1;
+}
+.hero input {
+  padding: 2em;
+  border: none;
+  outline: none;
+  width: 85%;
+}
+.hero button {
+  padding: 2em;
+  border-radius: 5px;
+  width: 10%;
+  background-color: #000;
+  color: #fff;
+}
+.hero form {
+  width: 100%;
 }
